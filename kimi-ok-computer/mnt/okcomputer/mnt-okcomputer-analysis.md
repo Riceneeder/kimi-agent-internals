@@ -42,10 +42,7 @@
 
 **Purpose**: Generated outputs
 
-**Contents**: Analysis documents, generated files
-
-**Subdirectories**:
-- `analysis/`: Technical analysis documents
+**Contents**: Generated files
 
 ### 2.4 upload/
 
@@ -80,8 +77,3 @@ drwxr-xr-x 0 root root    0 Feb  2 08:27 upload
     │   └── analysis/ ──► Documentation
     └── upload/ ──► User uploads
 ```
-
----
-
-*Document Version: 1.0*
-*Analysis Date: 2026-02-02*
