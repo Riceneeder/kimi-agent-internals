@@ -113,16 +113,6 @@ flowchart LR
 
 ---
 
-## Noteable Findings
-
-**No specialized tools for the different agents.** The agent has basic tools like `shell`, `read_file`, etc.; No `create_docx()`, no `create_pdf()`. It builds Word documents by writing C# code and running `dotnet run`. It compiles PDFs by writing LaTeX and running `tectonic`. Capabilities come from documentation, not backend implementations.
-
-**1 tool, 4 agents.** Specialized behavior comes from 900+ line instruction manuals that the agent reads at runtime. Same shell tool, different manual = different expert. The xlsx skill teaches Excel compatibility rules. The docx skill explains OpenXML SDK patterns. The PDF skill describes three different generation routes.
-
-**Dead Bitcoin code.** There's a 384-line Bitcoin stealth address library in `browser_guard.py`. It's from DarkWallet (2014), fails on the first line due to missing dependencies, and does nothing. The variable name suggests browser anti-detection was intended. The actual code is cryptocurrency. Why it's there is unclear.
-
----
-
 ## Start Here
 
 - **[architecture.md](architecture.md)**: The main technical article explaining how Kimi works
