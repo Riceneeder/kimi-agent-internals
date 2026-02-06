@@ -174,13 +174,5 @@ CC BY 4.0. See [`LICENSE`](LICENSE) for details.
 
 ## Star History
 
-<p align="center">
-  <a href="https://www.star-history.com/#dnnyngyen/kimi-agent-internals&type=date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date" width="400" />
-    </picture>
-  </a>
-</p>
+[![Star History Chart](https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date&legend=top-left)](https://www.star-history.com/#dnnyngyen/kimi-agent-internals&type=date&legend=top-left)
 
