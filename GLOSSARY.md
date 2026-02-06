@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<!-- Copyright 2026 Danny Nguyen -->
+
 # Glossary
 
 Definitions for terms used throughout this repository.
@@ -48,7 +51,7 @@ Pre-built starting point for common tasks within a skill. Defines file structure
 Quality assurance component that checks generated output against requirements. Examples: DOCX validator uses .NET OpenXML SDK (runtime configs documented), XLSX validator uses 77MB KimiXlsx binary.
 
 ### Route (PDF Routes)
-Alternative generation paths for the PDF skill: HTML route (wkhtmltopdf), LaTeX route (Tectonic), or Process route (headless browser).
+Alternative generation paths for the PDF skill: HTML route (Playwright with Paged.js), LaTeX route (Tectonic), Process route (pikepdf/pdfplumber), or Convert route (LibreOffice).
 
 ### Skill-Gated Shell-Operator
 Pattern where shell access is restricted: only specific pre-validated scripts can be executed, with no arbitrary command access. Contrasts with MCP (Model Context Protocol) approaches.
@@ -71,7 +74,7 @@ Python service (`browser_guard.py`) managing Chrome automation. Provides screens
 Python execution environment (`jupyter_kernel.py`) with sandboxed code execution with matplotlib support, 30-minute timeout, and 500MB memory limit.
 
 ### Kernel Server
-Control plane service (`kernel_server.py`) on port 8888. Manages browser guard lifecycle, health checks, and skill script coordination.
+Control plane service (`kernel_server.py`) on port 8888. Manages kernel lifecycle, health checks, and kernel reset/interrupt operations.
 
 ### Tectonic
 57MB LaTeX compilation engine used by the PDF skill for high-quality document generation via the LaTeX route.
@@ -88,7 +91,7 @@ Microsoft Word document format. Kimi uses C# with OpenXML SDK for generation, .N
 Microsoft Excel workbook format. Uses 77MB KimiXlsx binary for validation, supports pivot tables via dedicated extension.
 
 ### PDF
-Portable Document Format. Three generation routes available: HTML (wkhtmltopdf), LaTeX (Tectonic), or Process (headless Chrome).
+Portable Document Format. Four generation routes available: HTML (Playwright with Paged.js), LaTeX (Tectonic), Process (pikepdf/pdfplumber), or Convert (LibreOffice).
 
 ### WebApp
 React-based web application using TypeScript and shadcn/ui component library. Deployed to dynamic subdomains.

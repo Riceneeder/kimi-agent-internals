@@ -1,5 +1,14 @@
 Format: https://www.reuse.software/spec/3.3/
 
+Files: .reuse/dep5
+Copyright: 2026 Danny Nguyen
+License: CC-BY-4.0
+
+Files: LICENSE
+Copyright: 2026 Danny Nguyen
+License: CC-BY-4.0
+Comment: License file itself; original text by maintainer.
+
 Files: prompts/base-chat.md prompts/ok-computer.md prompts/docs.md
        prompts/sheets.md prompts/websites.md prompts/slides.md
        prompts/memory-format.txt

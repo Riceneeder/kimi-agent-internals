@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<!-- Copyright 2026 Danny Nguyen -->
+
 # Methodology
 
 This analysis documents materials extracted from the Kimi K2.5 agent
@@ -15,8 +18,6 @@ This research was conducted with assistance from
 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) for
 organizing, analyzing, and documenting the findings. The extraction
 itself was performed entirely through conversation with Kimi.
-
-## How the Extraction Worked
 
 ## How the Extraction Worked
 

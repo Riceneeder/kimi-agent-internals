@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<!-- Copyright 2026 Danny Nguyen -->
+
 # Notice
 
 ## Licensing
