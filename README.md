@@ -166,3 +166,9 @@ This research is independent and not affiliated with Moonshot AI.
 
 CC BY 4.0. See [`LICENSE`](LICENSE) for details.
 
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=dnnyngyen/kimi-k2.5-system-analysis&type=date&legend=top-left)](https://www.star-history.com/#dnnyngyen/kimi-k2.5-system-analysis&type=date&legend=top-left)
+
