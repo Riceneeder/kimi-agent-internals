@@ -1,10 +1,10 @@
 # Kimi K2.5 System Analysis
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-9cf.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Type: Research](https://img.shields.io/badge/Type-Research-0366d6)](https://github.com/dnnyngyen/kimi-k2.5-system-internals)
-[![Method](https://img.shields.io/badge/Method-Open%20Analysis-0969da)](https://github.com/dnnyngyen/kimi-k2.5-system-internals)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/dnnyngyen/kimi-k2.5-system-internals?color=58a6ff)](https://github.com/dnnyngyen/kimi-k2.5-system-internals)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/dnnyngyen/kimi-k2.5-system-internals?color=79c0ff)](https://github.com/dnnyngyen/kimi-k2.5-system-internals/commits/main)
+[![Type: Research](https://img.shields.io/badge/Type-Research-0366d6)](https://github.com/dnnyngyen/kimi-agent-internals)
+[![Method](https://img.shields.io/badge/Method-Open%20Analysis-0969da)](https://github.com/dnnyngyen/kimi-agent-internals)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/dnnyngyen/kimi-agent-internals?color=58a6ff)](https://github.com/dnnyngyen/kimi-agent-internals)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/dnnyngyen/kimi-agent-internals?color=79c0ff)](https://github.com/dnnyngyen/kimi-agent-internals/commits/main)
 
 > An analysis of Moonshot AI's Kimi K2.5 agent architecture.
 >
@@ -35,7 +35,7 @@ Kimi shifted from tool-use architectures to skill-based environment architecture
 ## Repository Structure
 
 ```
-kimi-k2.5-system-internals/
+kimi-agent-internals/
 ├── README.md                 # Main entry point
 ├── GLOSSARY.md               # Terms and definitions
 ├── METHODOLOGY.md            # How the analysis was conducted
@@ -175,11 +175,11 @@ CC BY 4.0. See [`LICENSE`](LICENSE) for details.
 ## Star History
 
 <p align="center">
-  <a href="https://www.star-history.com/#dnnyngyen/kimi-k2.5-system-internals&type=date">
+  <a href="https://www.star-history.com/#dnnyngyen/kimi-agent-internals&type=date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-k2.5-system-internals&type=date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-k2.5-system-internals&type=date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=dnnyngyen/kimi-k2.5-system-internals&type=date" width="400" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=dnnyngyen/kimi-agent-internals&type=date" width="400" />
     </picture>
   </a>
 </p>
