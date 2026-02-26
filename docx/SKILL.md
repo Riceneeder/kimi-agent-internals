@@ -22,7 +22,7 @@ documents) and Python/lxml (editing existing documents).
 Run once in the skill directory to install dependencies:
 
 ```bash
-cd /app/.kimi/skills/docx/
+cd /app/.agent/skills/docx/
 ./scripts/docx init
 ```
 
