@@ -17,23 +17,6 @@ license: CC0-1.0
 Skill for generating and editing Word documents via the C# OpenXML SDK (new
 documents) and Python/lxml (editing existing documents).
 
-## Getting started
-
-Run once in the skill directory to install dependencies:
-
-```bash
-cd /app/.kimi/skills/docx/
-./scripts/docx init
-```
-
-## Key entry points
-
-| Task | Where to look |
-|------|---------------|
-| Create a new document | `assets/templates/Example.cs`, `assets/templates/CJKExample.cs` |
-| Edit an existing document (comments / track changes) | `references/EditingGuide.md` |
-| Build / validate | `./scripts/docx build` |
-
 ## Directory layout
 
 ```
@@ -54,5 +37,23 @@ docx/
 │   └── templates/                    ← C# project and example templates
 └── validator/                        ← OpenXML validator configs
 ```
+
+## Getting started
+
+Run once in the skill directory to install dependencies:
+
+```bash
+./scripts/docx init
+```
+
+## Key entry points
+
+| Task | Where to look |
+|------|---------------|
+| Create a new document | `assets/templates/Example.cs`, `assets/templates/CJKExample.cs` |
+| Edit an existing document (comments / track changes) | `references/EditingGuide.md` |
+| Build / validate | `./scripts/docx build` |
+
+
 
 See `references/EditingGuide.md` for the complete editing API reference.
